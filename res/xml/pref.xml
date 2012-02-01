@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preference_title" >
+        <ListPreference
+            android:defaultValue="40"
+            android:dialogTitle="@string/list_dialogtitle"
+            android:entries="@array/list_entries"
+            android:entryValues="@array/list_entryvalues"
+            android:key="list_key"
+            android:title="@string/list_title" />
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/service_dialogtitle"
+            android:entries="@array/service_entries"
+            android:entryValues="@array/service_entryvalues"
+            android:key="service_key"
+            android:title="@string/service_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="checkbox_key"
+            android:summary="@string/checkbox_summary"
+            android:title="@string/checkbox_title" />
+
+        <Preference
+            android:key="version_key"
+            android:summary="@string/version_name"
+            android:title="@string/version_title" />
+        <Preference
+            android:key="author_key"
+            android:summary="kanzmrsw"
+            android:title="Author" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

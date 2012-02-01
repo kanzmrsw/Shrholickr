@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sh\'rholickr</string>
+    <string name="preference_title">Preference</string>
+    <string name="list_title">Length of Shortened Title</string>
+    <string name="list_summary">number of letters in shortened title</string>
+    <string name="list_dialogtitle">Enter Length</string>
+    <string name="service_title">URL Shorten Service</string>
+    <string name="service_summary">URL Shortening Service</string>
+    <string name="service_dialogtitle">Choose Service</string>
+    <string name="colorpicker_title">Select background color</string>
+    <string name="version_name">0.7</string>
+    <string name="version_title">Version Information</string>
+    <string name="checkbox_title">Sh\'rholickr hashtag</string>
+    <string name="checkbox_summary">If checked, add hashtag \"#shrholickr\"</string>
+    <string name="shortening">!NOW SHORTENING.</string>
+
+</resources>
