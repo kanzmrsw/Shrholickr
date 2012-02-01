@@ -74,8 +74,8 @@ public class Shrholickr extends Activity {
             }
 
             if ((subject = intent.getStringExtra(Intent.EXTRA_SUBJECT)) == null
-            // after froyo
-                    || (subject = intent.getStringExtra(Intent.EXTRA_TITLE)) == null) {
+                    || (subject = intent.getStringExtra(Intent.EXTRA_TITLE)) == null) { // after
+                                                                                        // froyo
                 webView = new WebView(this);
                 webView.getSettings().setLoadsImagesAutomatically(false);
                 webView.getSettings().setJavaScriptEnabled(false);
