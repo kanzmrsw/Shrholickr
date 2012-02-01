@@ -101,8 +101,7 @@ public class Shrholickr extends Activity {
             Uri.Builder uriBuilder = new Uri.Builder();
             if (service < 2 || service > 7) { // bit.ly or j.mp
                 login = "kanzmrsw"; // bit.ly or j.mp account
-                apiKey = "R_a2b375b5b349a6bdcc71b008b3202321"; // bit.ly or j.mp
-                                                               // API key
+                apiKey = "R_a2b375b5b349a6bdcc71b008b3202321";
 
                 if (service == 0 || service > 3) {
                     uriBuilder.path("http://api.bit.ly/v3/shorten");
@@ -153,9 +152,7 @@ public class Shrholickr extends Activity {
                 } catch (IOException e) {
                 }
             } else if (service == 3) { // p.tl
-                apiKey = "4b189ce07c649da4c3ac023b1d8efc472e6501b7"; // bit.ly
-                                                                     // or j.mp
-                                                                     // API key
+                apiKey = "4b189ce07c649da4c3ac023b1d8efc472e6501b7";
                 uriBuilder.path("http://p.tl/api/api_simple.php");
                 uriBuilder.appendQueryParameter("key", apiKey);
                 uriBuilder.appendQueryParameter("url", Uri.encode(longUrl));
